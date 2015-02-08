@@ -9,7 +9,7 @@ end
 if ENV['RSPEC_VERSION']
   rspecversion = "= #{ENV['RSPEC_VERSION']}"
 else
-  rspecversion = '~> 2.0'
+  rspecversion = '~> 3.0'
 end
 
 gem 'rake'
